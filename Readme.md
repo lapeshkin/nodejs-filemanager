@@ -45,15 +45,10 @@ List of operations and their syntax:
     ```bash
     cd path_to_directory
     ```
-    - Print in console list of all files and folders in current directory. List should contain:
-        - list should contain files and folder names (for files - with extension)
-        - folders and files are sorted in alphabetical order ascending, but list of folders goes first
-        - type of directory content should be marked explicitly (e.g. as a corresponding column value)
+    - Print in console list of all files and folders in current directory in simple way :)
     ```bash
     ls
     ```
-    Example of how `ls` command output may look like  
-    ![ls output example](./ls-example.JPG)  
 - Basic operations with files
     - Read file and print it's content in console (should be done using Readable stream): 
     ```bash
