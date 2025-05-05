@@ -9,8 +9,8 @@ const args = utils.parseArgs();
 const input = new streams.ConsoleInputStream();
 const output = new streams.ConsoleOutputStream();
 
-//appContext['curPath'] = homedir();
-appContext['curPath'] = 'c:\\rs\\test2\\FileManager\\src';
+appContext['curPath'] = homedir();
+//appContext['curPath'] = 'c:\\rs\\test2\\FileManager\\src';
 appContext['userName'] = args['username'];
 
 utils.setContext(appContext);
