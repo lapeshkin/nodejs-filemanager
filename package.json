@@ -1,0 +1,25 @@
+{
+  "name": "FileManager",
+  "version": "1.0.0",
+  "description": "This repository is the task #2 of NodeJS 2025 Q2 course",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/fm.js --username=lalexey"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapeshkin/node-nodejs-filemanager.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "lapeshkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lapeshkin/node-nodejs-filemanager/issues"
+  },
+  "homepage": "https://github.com/lapeshkin/node-nodejs-filemanager#readme"
+}
